@@ -15,6 +15,7 @@ section.menu{
     align-content: flex-end;
     height: 10vh;
 }
+
 section header {
     display: flex;
     align-items: center;
