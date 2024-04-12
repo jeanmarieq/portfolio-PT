@@ -2,6 +2,7 @@
 @import url("./styles/header.css");
 @import url("./styles/profile.css");
 @import url("styles/about.css");
+@import url("styles/skills.css");
 
 body {
     background-color: #F5F5F5;
@@ -9,6 +10,7 @@ body {
     font-family: 'Raleway';
 	row-gap: 50px;
 	color: #464646;
+	overflow-x: hidden;
 }
 
 main {
