@@ -1,12 +1,12 @@
 @import url("styles/reset.css");
 @import url("./styles/header.css");
 @import url("./styles/profile.css");
+@import url("styles/about.css");
 
 body {
     background-color: #F5F5F5;
     line-height: 1;
     font-family: 'Raleway';
-	padding: 0 50px;
 	row-gap: 50px;
 	color: #464646;
 }
