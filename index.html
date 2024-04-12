@@ -207,23 +207,20 @@
             </section>
         </main>
 
-        <section class="formcontato">
-            <div id="contato" class="contact">
-                <div class="esquerda">
-                    <img class="contact-img" src="assets\contact_image.png">
-                </div>
-                <div class="contact-text">
-                    <h2 class="contact-title">Contacto</h2>
-                    <h3 class="contact-subtext">Quieres contactarme?</h3>
-                    <h3 class="contact-subtext">Complete el siguiente formulário y me pondre en contacto con usted lo antes posible.</h3>
-                    <form class="form" id="formulario">
-                        <input name="nombre" class="contato-input" type="text" id="nome" placeholder="Nombre"  maxlength="50">
-                        <input name="email" class="contato-input" type="email" id="email" placeholder="Email" >
-                        <input name="asunto" class="contato-input" type="text" id="assunto" placeholder="Asunto" maxlength="50">
-                        <textarea class="contato-textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Mensaje" maxlength="300"></textarea>
-                        <button type="submit" class="contato__botao"onclick="validarFormulario()">Enviar mensaje</button>
-                    </form>
-                </div>
+        <section class="contact">      
+            <img class="contact-img" src="assets\contact_image.png">
+            <div class="contact-info">
+                <h2>Contato</h2>
+                <p>Quer entrar em contato comigo?</p>
+                <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+
+                <form >
+                    <input class="contact-input" type="text"  placeholder="Nome">
+                    <input class="contact-input" type="email" placeholder="Email">
+                    <input class="contact-input" type="text" placeholder="Asunto">
+                    <textarea class="contact-textarea" rows="5" cols="40" placeholder="Mensaje" maxlength="300"></textarea>
+                    <button class="btn-contac">Enviar mensaje</button>
+                </form>
             </div>
         </section>
 
