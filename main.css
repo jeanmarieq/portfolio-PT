@@ -1,0 +1,25 @@
+@import url("styles/reset.css");
+@import url("./styles/header.css");
+@import url("./styles/profile.css");
+@import url("styles/about.css");
+@import url("styles/skills.css");
+@import url("styles/hobbies.css");
+@import url("styles/education.css");
+@import url("styles/experience.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
+
+body {
+    background-color: #F5F5F5;
+    line-height: 1;
+    font-family: 'Raleway';
+	row-gap: 50px;
+	color: #464646;
+	overflow-x: hidden;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

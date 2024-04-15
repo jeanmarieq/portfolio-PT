@@ -1,0 +1,22 @@
+.about {
+	padding: 30px;
+    background-color: #EAF2FD;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.about-title {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.about img {
+	width: 100px;
+}
+
+@media (min-width: 689px) {
+	.about {
+		padding: 30px 60px;
+	}
+} 
